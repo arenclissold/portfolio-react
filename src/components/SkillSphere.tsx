@@ -144,8 +144,8 @@ const defaultState: tagSphereProps = {
       width={40}
     />,
     <img
-      src="https://cdn.svgporn.com/logos/github-icon.svg"
-      alt="Git"
+      src="https://cdn.svgporn.com/logos/figma.svg"
+      alt="Figma"
       width={40}
     />,
     <img src="https://cdn.svgporn.com/logos/ruby.svg" alt="Ruby" width={50} />,
@@ -196,7 +196,7 @@ const defaultState: tagSphereProps = {
       width={40}
     />,
     <img src="https://cdn.svgporn.com/logos/postgresql.svg" alt="Postgresql" width={60} />,
-    <img src="https://cdn.svgporn.com/logos/express.svg" alt="Express" width={80} />,
+    <img id='express' src="https://cdn.svgporn.com/logos/express.svg" alt="Express" width={80} />,
     <img
       src="https://cdn.svgporn.com/logos/javascript.svg"
       alt="Javascript"
@@ -252,7 +252,7 @@ export default function SkillSphere(props: any) {
   const [mouseY, setMouseY] = useState(0);
 
   const handleMouseMove = (e: any) => {
-    
+
     const rect = containerRef.current.getBoundingClientRect();
 
     setMouseX(() => (e.clientX - (rect.left + rect.width / 2)) / 5);
@@ -260,7 +260,7 @@ export default function SkillSphere(props: any) {
   };
 
   const checkTouchCoordinates = (e: any) => {
-    
+
     const rect = containerRef.current.getBoundingClientRect();
     const touchX = e.targetTouches[0].clientX;
     const touchY = e.targetTouches[0].clientY;

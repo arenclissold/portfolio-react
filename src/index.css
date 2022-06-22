@@ -77,15 +77,28 @@
   margin-top: 1em;
 }
 
-.push-bottom {
+.sidebar-link-div {
+  bottom: 0px;
+  transition: 0.5s;
   position: relative;
-  bottom: 20px;
+}
+
+.sidebar-link-div a {
+  transition: 0.5s;
+}
+
+.sidebar-link-div:hover {
+  color: var(--primary-color);
+  bottom: 0.5em;
+}
+
+.push-bottom {
+  padding-bottom: 20px;
 }
 
 .sidebar-link {
-  text-decoration: none;
   color: currentColor;
-  transition: 0.5s;
+  text-decoration: none;
 }
 
 .sidebar-link:hover {
@@ -95,6 +108,12 @@
 .sideways {
   transform: rotate(270deg);
   margin-bottom: 5em;
+  transition: 0.5s;
+}
+
+.sideways:hover {
+  margin-bottom: 5.5em;
+
 }
 
 section {
@@ -206,6 +225,15 @@ h3 {
   margin-top: 7em;
 }
 
+.project-card > a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.project-card > a:hover {
+  color: currentColor;
+}
+
 .project-body {
   z-index: 2;
   position: relative;
@@ -285,15 +313,18 @@ h3 {
 }
 
 .link-icon {
+  position: relative;
   width: 2em;
   height: 2em;
   color: var(--secondary-color);
   margin-right: 0.5em;
   transition: 0.5s;
+  bottom: 0px;
 }
 
 .link-icon:hover {
   color: var(--primary-color);
+  bottom: 0.5em;
 }
 
 .last-p {
