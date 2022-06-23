@@ -26,7 +26,7 @@ export default function Navbar() {
               <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <a href="" className="button-link external-link m-2">Resume</a>
+          <a href="/assets/aren_clissold_resume.pdf" className="button-link external-link m-2">Resume</a>
         </div>
       </div>
     </nav>
