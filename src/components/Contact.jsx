@@ -5,16 +5,14 @@ import LinkedinIcon from "./icons/LinkedinIcon";
 
 export default function Contact() {
   return (
-    <section className="centered margin-bottom">
+    <section id="contact" className="centered margin-bottom">
       <div className="sub-heading center-content">
         <div className="small-line"></div>
-        <h2 id="contact">Get in Touch</h2>
+        <h2 >Get in Touch</h2>
         <div className="small-line"></div>
       </div>
-      <p className="last">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, corrupti laboriosam
-        architecto incidunt aliquid reprehenderit facilis, aliquam illum voluptatibus suscipit
-        eum dolorem rerum ratione odio assumenda beatae laudantium impedit nostrum.
+      <p className="mx-auto last-p ">
+        I'm currently interested in new opportunities. I'm always keen for a chat whether your looking to collaborate on something or just say hi. Feel free to say hello.
       </p>
       <a href="mailto:arenclissold@gmail.com" className="hello-button external-link">Say Hello</a>
       <footer>
@@ -24,6 +22,5 @@ export default function Contact() {
         </div>
       </footer>
     </section>
-
   )
 }

@@ -3,14 +3,14 @@ import GitHubIcon from "./icons/GitHubIcon";
 import ProjectLinkIcon from "./icons/ProjectLinkIcon";
 import DaytImg from "./assets/dayt_image.jpeg"
 import GigFoxImg from "./assets/gig-fox.png"
-import CampingImg from "./assets/hiking_pic.jpg";
+import OpenTrivia from "./assets/open_trivia.png";
 
 
 export default function Projects() {
   return (
-    <section>
+    <section id='projects'>
     <div className="sub-heading">
-      <h2>Things I've Built</h2>
+      <h2 >Things I've Built</h2>
       <div className="line"></div>
     </div>
     <div className="project-cards">
@@ -56,18 +56,19 @@ export default function Projects() {
           </div>
       </div>
       <div className="project-card">
-        <a href="https://github.com/arenclissold/open-trivia">
+        <a href="https://open-trivia-time.herokuapp.com/">
           <div className="project-opacity"></div>
-          <img className="project-img" src={CampingImg} alt="camping" />
+          <img className="project-img" src={OpenTrivia} alt="camping" />
           </a>
           <div className="project-body project-body-right">
             <h3>Open Trivia</h3>
             <p className="project-description project-description-right shadow-lg">
-              A modern application to find, share and review camping spots. Helping you discover those magical camping spots and miss the so-so ones.
+              A trivia game with scores and categories, utilising the Open Trivia API. See how many points you can get!
             </p>
-            <p className="project-technologies">Express | MongoDB | mongoose | Node | REST</p>
+            <p className="project-technologies">Javascript | Stimulus.js | HTML | CSS | Bootstrap</p>
             <div className="project-links">
               <a href="https://github.com/arenclissold/open-trivia"><GitHubIcon /></a>
+              <a href="https://open-trivia-time.herokuapp.com/" className="project-link"><ProjectLinkIcon /></a>
             </div>
           </div>
       </div>

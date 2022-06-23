@@ -4,7 +4,7 @@ import LinkedinIcon from './icons/LinkedinIcon'
 
 export function Left() {
   return (
-    <div className="col col-1 d-none d-md-flex justify-content-center">
+    <div className="col col-1 d-none d-lg-flex justify-content-center">
         <div className="sidebar ml-5">
           <div className='sidebar-link-div push-bottom'>
             <a href="https://github.com/arenclissold"><GitHubIcon /></a>
@@ -20,7 +20,7 @@ export function Left() {
 
 export function Right() {
   return (
-    <div className="col col-1 d-none d-md-flex justify-content-center">
+    <div className="col col-1 d-none d-lg-flex justify-content-center">
         <div className="sidebar">
           <div className="sideways">
             <a className="sidebar-link" href="mailto:arenclissold@gmail.com">arenclissold@gmail.com</a>

@@ -14,7 +14,7 @@ export default function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse mb-2" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item mx-2">
               <a className="nav-link" href="#about">About</a>
@@ -26,7 +26,7 @@ export default function Navbar() {
               <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <a href="" className="button-link external-link mx-2 mb-md-0">Resume</a>
+          <a href="" className="button-link external-link m-2">Resume</a>
         </div>
       </div>
     </nav>
