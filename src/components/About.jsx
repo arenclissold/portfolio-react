@@ -11,7 +11,7 @@ export default function About() {
     </div>
     <div className="container">
       <div className="row justify-content-center">
-        <div className="col-lg mt-4">
+        <div className="col-xxl mt-4">
           <p className='text-about'>
           I'm a Junior Software Engineer who loves problem-solving and learning new skills. I transitioned to coding when I realised how much I enjoyed scripting network hardware configurations in my previous position as an IT technician.
           <br /><br />
@@ -21,7 +21,7 @@ export default function About() {
           player mentality and my passion for coding. Excited to put my skills to use while learning new languages and tools.
           </p>
         </div>
-        <div className="col-lg flex-center">
+        <div className="col-xxl flex-center">
           <SkillSphere />
         </div>
       </div>

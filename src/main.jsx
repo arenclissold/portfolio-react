@@ -14,10 +14,10 @@ import { Left, Right } from "./components/SideBar";
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div className='main'>
     <Navbar />
-    <div className="container-fluid">
-      <div className="row">
+    <div className="container">
+      <div className="row gx-5">
         <Left />
-        <div className="col mx-4">
+        <div className="col">
           <Header />
           <About />
           <Projects />

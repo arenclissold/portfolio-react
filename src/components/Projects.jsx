@@ -26,7 +26,7 @@ export default function Projects() {
               easy while providing authentic experiences recommended by locals. Featuring geocoding, image upload, authentication and front end npm packages for a smooth user experience.
             </p>
             <p className="project-technologies">
-              Ruby On Rails | Postgresql | JavaScript | SCSS | REST
+              Ruby On Rails | Postgresql | JavaScript | SCSS
             </p>
             <div className="project-links">
               <a href="https://github.com/hwalk1/dayt_app"><GitHubIcon /></a>
@@ -48,7 +48,7 @@ export default function Projects() {
             <p className="project-description shadow-lg">
               A web app for posting and booking venues around Melbourne. Post your own venue and see it appear on the map. Featuring geocoding, image upload, authentication and authorisation.
             </p>
-            <p className="project-technologies">Ruby On Rails | Postgresql | JavaScript | SCSS | REST</p>
+            <p className="project-technologies">Ruby On Rails | Postgresql | JavaScript | SCSS</p>
             <div className="project-links">
               <a href="https://github.com/hwalk1/gigfox"><GitHubIcon /></a>
               <a href="https://gig-fox.herokuapp.com/" className="project-link"><ProjectLinkIcon /></a>
@@ -65,7 +65,7 @@ export default function Projects() {
             <p className="project-description project-description-right shadow-lg">
               A trivia game with scores and categories, utilising the Open Trivia API. See how many points you can get!
             </p>
-            <p className="project-technologies">Javascript | Stimulus.js | HTML | CSS | Bootstrap</p>
+            <p className="project-technologies">JavaScript | Stimulus.js | HTML | CSS | Bootstrap</p>
             <div className="project-links">
               <a href="https://github.com/arenclissold/open-trivia"><GitHubIcon /></a>
               <a href="https://open-trivia-time.herokuapp.com/" className="project-link"><ProjectLinkIcon /></a>

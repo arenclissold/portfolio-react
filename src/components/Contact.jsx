@@ -12,7 +12,7 @@ export default function Contact() {
         <div className="small-line"></div>
       </div>
       <p className="mx-auto last-p ">
-        I'm currently interested in new opportunities. I'm always keen for a chat whether your looking to collaborate on something or just say hi. Feel free to say hello.
+        I'm currently interested in new opportunities. I'm always keen for a chat whether you're looking to collaborate on something or just say hello, feel free to contact me.
       </p>
       <a href="mailto:arenclissold@gmail.com" className="hello-button external-link">Say Hello</a>
       <footer>
