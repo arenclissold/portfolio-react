@@ -191,9 +191,9 @@ const defaultState: tagSphereProps = {
       width={40}
     />,
     <img
-      src="https://cdn.svgporn.com/logos/mocha.svg"
-      alt="Mocha"
-      width={40}
+      src="https://cdn.svgporn.com/logos/tailwindcss-icon.svg"
+      alt="Tailwind CSS"
+      width={60}
     />,
     <img src="https://cdn.svgporn.com/logos/postgresql.svg" alt="Postgresql" width={60} />,
     <img id='express' src="https://cdn.svgporn.com/logos/express.svg" alt="Express" width={80} />,

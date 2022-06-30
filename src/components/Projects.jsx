@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <section id='projects'>
     <div className="sub-heading">
-      <h2 >Things I've Built</h2>
+      <h2>Featured Projects</h2>
       <div className="line"></div>
     </div>
     <div className="project-cards">
@@ -56,7 +56,7 @@ export default function Projects() {
           </div>
       </div>
       <div className="project-card">
-        <a href="https://open-trivia-time.herokuapp.com/">
+        <a href="https://open-trivia-time.netlify.app/">
           <div className="project-opacity"></div>
           <img className="project-img" src={OpenTrivia} alt="camping" />
           </a>
@@ -68,7 +68,7 @@ export default function Projects() {
             <p className="project-technologies">JavaScript | Stimulus.js | HTML | CSS | Bootstrap</p>
             <div className="project-links">
               <a href="https://github.com/arenclissold/open-trivia"><GitHubIcon /></a>
-              <a href="https://open-trivia-time.herokuapp.com/" className="project-link"><ProjectLinkIcon /></a>
+              <a href="https://open-trivia-time.netlify.app/" className="project-link"><ProjectLinkIcon /></a>
             </div>
           </div>
       </div>

@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Yellowtail&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --primary-color: #4cd7f0;
@@ -277,6 +280,16 @@ h3 {
   transition: 0.5s;
 }
 
+/* .grid-project {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.grid-project > div {
+  height: 200px;
+} */
+
 @media (min-width: 992px) {
   .project-body-right {
     text-align: right;
@@ -321,6 +334,10 @@ h3 {
     padding: 30px;
     border-radius: 5px;
   }
+
+  /* .grid-project {
+    grid-template-columns: repeat(3, 1fr);
+  } */
 }
 
 .link-icon {
