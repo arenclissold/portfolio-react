@@ -15,7 +15,7 @@ import MoreProjects from "./components/MoreProjects";
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div className='main'>
     <Navbar />
-    <div className="container">
+    <div className="container-fluid px-4">
       <div className="row gx-5">
         <Left />
         <div className="col">

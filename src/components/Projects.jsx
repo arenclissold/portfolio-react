@@ -28,7 +28,7 @@ export default function Projects() {
             <p className="project-technologies">
               Ruby On Rails | Postgresql | JavaScript | SCSS
             </p>
-            <div className="project-links">
+            <div className="flex lg:justify-end">
               <a href="https://github.com/hwalk1/dayt_app"><GitHubIcon /></a>
               <a href="https://www.dayt.travel" className="project-link"><ProjectLinkIcon /></a>
             </div>
@@ -49,7 +49,7 @@ export default function Projects() {
               A web app for posting and booking venues around Melbourne. Post your own venue and see it appear on the map. Featuring geocoding, image upload, authentication and authorisation.
             </p>
             <p className="project-technologies">Ruby On Rails | Postgresql | JavaScript | SCSS</p>
-            <div className="project-links">
+            <div className="flex">
               <a href="https://github.com/hwalk1/gigfox"><GitHubIcon /></a>
               <a href="https://gig-fox.herokuapp.com/" className="project-link"><ProjectLinkIcon /></a>
             </div>
@@ -66,7 +66,7 @@ export default function Projects() {
               A trivia game with scores and categories, utilising the Open Trivia API. See how many points you can get!
             </p>
             <p className="project-technologies">JavaScript | Stimulus.js | HTML | CSS | Bootstrap</p>
-            <div className="project-links">
+            <div className="flex lg:justify-end">
               <a href="https://github.com/arenclissold/open-trivia"><GitHubIcon /></a>
               <a href="https://open-trivia-time.netlify.app/" className="project-link"><ProjectLinkIcon /></a>
             </div>
@@ -74,6 +74,5 @@ export default function Projects() {
       </div>
     </div>
   </section>
-
   )
-  }
+}

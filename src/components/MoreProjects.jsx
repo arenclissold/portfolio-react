@@ -60,7 +60,7 @@ export default function MoreProjects() {
         <h2>More Projects</h2>
         <div className="line"></div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
         {projects}
       </div>
     </section>
