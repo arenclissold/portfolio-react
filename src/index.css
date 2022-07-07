@@ -9,14 +9,6 @@
   --line-color: #2f3957;
 }
 
-.main {
-  margin: 0;
-  background-color: #0a1128;
-  color: var(--secondary-color);
-  font-family: "Roboto", sans-serif;
-  overflow: hidden;
-}
-
 .tagcloud {
   font-size: 20px;
   font-weight: 650;
@@ -24,54 +16,6 @@
 }
 .tagcloud--item:hover {
   color: #36454f;
-}
-
-.external-link {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-.centered {
-  text-align: center;
-}
-
-.center-content {
-  justify-content: center;
-}
-
-.relative {
-  position: relative;
-}
-
-.navbar {
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(4px);
-  z-index: 10;
-}
-
-.nav-link {
-  color: rgb(178, 188, 190) !important;
-  transition: 0.5s;
-}
-
-.nav-link:hover {
-  color: var(--primary-color)!important;
-}
-
-.sticky-top {
-  position: fixed;
-}
-
-.brand {
-  font-size: 2.5em;
-  font-family: 'Yellowtail', cursive;
-  text-decoration: none;
-  color: var(--primary-color);
-  margin-left: 15px;
-}
-
-.brand:hover {
-  color: var(--primary-color);
 }
 
 .sidebar {
@@ -132,29 +76,6 @@
 
 }
 
-section {
-  padding-top: 7em;
-}
-
-.button-link {
-  border: solid var(--primary-color);
-  border-radius: 5px;
-  padding: 0.5em 1em;
-  transition: 0.5s;
-  margin: 0.5em;
-}
-
-.button-link:hover {
-  color: var(--primary-color);
-  background-color: #4ccaf02b;
-}
-
-h3 {
-  font-family: "Roboto Mono", monospace;
-  color: var(--primary-color);
-  font-size: 16px !important;
-}
-
 .line {
   height: 1px;
   width: 50%;
@@ -174,39 +95,6 @@ h3 {
   align-items: center;
   width: 100%;
   margin-bottom: 0.5em;
-}
-
-.text-about {
-  font-size: 1.2em;
-}
-
-.photo-parent {
-  position: relative;
-}
-
-.photo-border {
-  border: 0.2em solid var(--primary-color);
-  border-radius: 0.4em;
-  top: 1.5em;
-  left: 1.5em;
-  height: 20em;
-  width: 20em;
-  position: absolute;
-  z-index: 0;
-  transition: 0.5s;
-}
-
-#photo {
-  height: 20em;
-  width: 20em;
-  border-radius: 0.2em;
-  z-index: 1;
-  position: relative;
-}
-
-#photo:hover ~ .photo-border {
-  top: 1em;
-  left: 1em;
 }
 
 .flex-center {
@@ -279,16 +167,6 @@ h3 {
   border-radius: 5px;
   transition: 0.5s;
 }
-
-/* .grid-project {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 10px;
-}
-
-.grid-project > div {
-  height: 200px;
-} */
 
 @media (min-width: 992px) {
   .project-body-right {
