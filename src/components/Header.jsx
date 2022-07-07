@@ -1,5 +1,5 @@
 import React from 'react'
-import Aren from "./assets/aren.jpeg";
+import Aren from "./assets/aren.jpg";
 
 export default function Header() {
   return (
