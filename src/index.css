@@ -3,10 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --primary-color: #4cd7f0;
-  --secondary-color: #aeb9df;
-  --line-color: #2f3957;
+@layer components {
+  .line {
+    @apply h-0.5 w-1/2 bg-[#2f3957] mx-4 rounded-3xl
+  }
+  .side-line {
+    @apply h-48 w-0.5 bg-[#2f3957] mt-4
+  }
+  .link-icon {
+    @apply relative w-8 h-8 text-secondary bottom-0
+    transition-all duration-500 hover:text-primary hover:bottom-2
+  }
 }
 
 .tagcloud {
@@ -14,73 +21,9 @@
   font-weight: 650;
   margin-left: 30%;
 }
+
 .tagcloud--item:hover {
   color: #36454f;
-}
-
-.sidebar {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  height: 100%;
-  bottom: 0px;
-  width: 100px;
-}
-
-.side-line {
-  height: 200px;
-  width: 2px;
-  background: var(--line-color);
-  margin-top: 1em;
-}
-
-.sidebar-link-div {
-  bottom: 0px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.sidebar-link-div a {
-  transition: 0.5s;
-}
-
-.sidebar-link-div:hover {
-  color: var(--primary-color);
-  bottom: 0.5em;
-}
-
-.push-bottom {
-  padding-bottom: 20px;
-}
-
-.sidebar-link {
-  color: currentColor;
-  text-decoration: none;
-  transition: 0.5s;
-}
-
-.sidebar-link:hover {
-  color: var(--primary-color);
-}
-
-.sideways {
-  transform: rotate(90deg);
-  margin-bottom: 5em;
-  transition: 0.5s;
-}
-
-.sideways:hover {
-  margin-bottom: 5.5em;
-
-}
-
-.line {
-  height: 1px;
-  width: 50%;
-  background: var(--line-color);
-  margin: 0em 2em;
 }
 
 .small-line {
@@ -88,19 +31,6 @@
   width: 20%;
   background: var(--line-color);
   margin: 0em 2em;
-}
-
-.sub-heading {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 0.5em;
-}
-
-.flex-center {
-  display: flex;
-  justify-content: center;
-  margin: 2em;
 }
 
 .project-cards {
@@ -212,26 +142,8 @@
     padding: 30px;
     border-radius: 5px;
   }
-
-  /* .grid-project {
-    grid-template-columns: repeat(3, 1fr);
-  } */
 }
 
-.link-icon {
-  position: relative;
-  width: 2em;
-  height: 2em;
-  color: var(--secondary-color);
-  margin-right: 0.5em;
-  transition: 0.5s;
-  bottom: 0px;
-}
-
-.link-icon:hover {
-  color: var(--primary-color);
-  bottom: 0.5em;
-}
 
 .last-p {
   width: 60%;
