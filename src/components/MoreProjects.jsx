@@ -24,7 +24,7 @@ export default function MoreProjects() {
 
     return (
       <div
-      className="h-40 border-white border-3 rounded-lg relative z-10 bg-white shadow-lg transition-all duration-300 transform hover:scale-105">
+      className="h-40 border-white border-[3px] rounded-lg relative z-10 bg-white shadow-lg transition-all duration-300 transform hover:scale-105">
         <img
         className="z-0 h-full w-full rounded-lg object-cover object-center block"
         src={props.data.img} alt={props.data.name} />
@@ -55,12 +55,12 @@ export default function MoreProjects() {
   const projects = projectData.map((data, i) => <Project key={i} data={data} />)
 
   return (
-    <section id='more-projects'>
-      <div className="sub-heading">
-        <h2>More Projects</h2>
+    <section id='more-projects' className='scroll-m-24 mt-20 min-h-[30em]'>
+      <div className="flex items-center">
+        <h2 className='font-semibold text-4xl'>More Projects</h2>
         <div className="line"></div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-8">
         {projects}
       </div>
     </section>

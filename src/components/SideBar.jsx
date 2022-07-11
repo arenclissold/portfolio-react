@@ -4,29 +4,26 @@ import LinkedinIcon from './icons/LinkedinIcon'
 
 export function Left() {
   return (
-    <div className="col col-1 d-none d-lg-flex justify-content-center">
-        <div className="sidebar">
-          <div className='sidebar-link-div push-bottom'>
-            <a href="https://github.com/arenclissold"><GitHubIcon /></a>
-          </div>
-          <div className='sidebar-link-div'>
-            <a href="https://www.linkedin.com/in/arenclissold/"><LinkedinIcon /></a>
-          </div>
-          <div className="side-line"></div>
-        </div>
+    <div className='hidden lg:block'>
+      <div className="fixed flex flex-col justify-end items-center h-full w-1/12 bottom-0">
+        <a href="https://github.com/arenclissold" className='mb-4'><GitHubIcon /></a>
+        <a href="https://www.linkedin.com/in/arenclissold/"><LinkedinIcon /></a>
+        <div className="side-line"></div>
       </div>
+    </div>
   )
 }
 
 export function Right() {
   return (
-    <div className="col col-1 d-none d-lg-flex justify-content-center">
-        <div className="sidebar">
-          <div className="sideways">
-            <a className="sidebar-link" href="mailto:arenclissold@gmail.com">arenclissold@gmail.com</a>
-          </div>
-          <div className="side-line"></div>
-        </div>
+    <div className='hidden lg:block'>
+      <div className="fixed flex flex-col justify-end items-center h-full bottom-0 w-1/12">
+          <a className="rotate-90 mb-20 hover:mb-[5.5em] transition-all duration-500 hover:text-primary"
+          href="mailto:arenclissold@gmail.com">
+            arenclissold@gmail.com
+          </a>
+        <div className="side-line"></div>
       </div>
+    </div>
   )
 }
