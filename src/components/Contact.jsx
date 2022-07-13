@@ -8,7 +8,7 @@ export default function Contact() {
     <section id="contact" className="scroll-m-24 mt-20">
       <div className="flex items-center justify-center mb-6">
         <div className="h-0.5 w-1/5 bg-[#2f3957] mx-4 rounded-3xl"></div>
-        <h2 className='font-semibold text-4xl'>Get in Touch</h2>
+        <h2 className='font-semibold text-4xl w-min'>Get in Touch</h2>
         <div className="h-0.5 w-1/5 bg-[#2f3957] mx-4 rounded-3xl"></div>
       </div>
       <p className="mx-auto w-3/5 text-center text-lg">
