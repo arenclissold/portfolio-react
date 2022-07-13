@@ -26,7 +26,7 @@ export default function Projects() {
     },
     {
       name: 'Tic Tac Toe',
-      description: 'A game of Tic Tac Toe made using React, Tailwind and Vite. Featuring time travel and a beautiful UI',
+      description: 'A game of Tic Tac Toe made using React, Tailwind and Vite. Featuring time travel and a beautiful UI.',
       img: ticTacToe,
       github: 'https://github.com/arenclissold/react-tic-tac-toe',
       website: 'https://myreact-tic-tac-toe.netlify.app/',
