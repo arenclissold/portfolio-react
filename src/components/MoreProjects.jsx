@@ -1,18 +1,18 @@
-import React from "react";
-import { render } from "react-dom";
 import camping from './assets/hiking_pic.jpg'
-import ticTacToe from './assets/tic-tac-toe.png'
+import OpenTrivia from "./assets/open_trivia.png";
+
 import { FaGithub } from 'react-icons/fa';
 import { BsArrowUpRight } from 'react-icons/bs';
 
 export default function MoreProjects() {
   const projectData = [
         {
-          name: 'Tic Tac Toe',
-          img: ticTacToe,
-          github: 'https://github.com/arenclissold/react-tic-tac-toe',
-          website: 'https://myreact-tic-tac-toe.netlify.app/',
-          technologies: ['JS', 'React', 'Vite', 'Tailwind']
+          name: 'Open Trivia',
+          description: 'A trivia game with scores and categories, utilising the Open Trivia API. See how many points you can get!',
+          technologies: ['JavaScript', 'Stimulus.js', 'HTML', 'CSS', 'Bootstrap'],
+          github: 'https://github.com/arenclissold/open-trivia',
+          website: 'https://open-trivia-time.netlify.app/',
+          img: OpenTrivia
         },
         {name: 'Yelp Camp', img: camping},
         ]
