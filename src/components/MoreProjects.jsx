@@ -54,14 +54,26 @@ export default function MoreProjects() {
 
   const projects = projectData.map((data, i) => <Project key={i} data={data} />)
 
+  const GithubSquare = () => {
+    return (
+        <div className="h-40 w-full p-2 z-10 top-0 bg-slate-600 bg-opacity-70 rounded-lg
+        flex flex-col justify-center shadow-lg transition-all duration-300 transform hover:scale-105">
+          <h4 className="text-white text-center">
+            Remember to checkout my <a className=' text-primary underline' href="https://github.com/arenclissold/">github profile</a> if you want to see more projects
+          </h4>
+        </div>
+    )
+  }
+
   return (
     <section id='more-projects' className='scroll-m-24 mt-20 min-h-[30em]'>
       <div className="flex items-center">
         <h2 className='font-semibold text-4xl'>More Projects</h2>
         <div className="line"></div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-8">
         {projects}
+        <GithubSquare />
       </div>
     </section>
   )
