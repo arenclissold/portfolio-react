@@ -1,5 +1,6 @@
 import camping from './assets/hiking_pic.jpg'
 import OpenTrivia from "./assets/open_trivia.png";
+import ThreeJS from "./assets/3js.png"
 
 import { FaGithub } from 'react-icons/fa';
 import { BsArrowUpRight } from 'react-icons/bs';
@@ -13,6 +14,13 @@ export default function MoreProjects() {
           github: 'https://github.com/arenclissold/open-trivia',
           website: 'https://open-trivia-time.netlify.app/',
           img: OpenTrivia
+        },
+        {
+          name: 'ThreeJS System',
+          technologies: ['ThreeJS', 'Javascript', 'Vite', 'CSS'],
+          github: 'https://github.com/arenclissold/3js-practice',
+          website: 'https://three-js-solar-sytem.netlify.app/',
+          img: ThreeJS
         },
         {name: 'Yelp Camp', img: camping},
         ]
