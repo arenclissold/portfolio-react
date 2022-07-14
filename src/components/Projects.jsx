@@ -9,20 +9,20 @@ import ticTacToe from './assets/tic-tac-toe.png'
 export default function Projects() {
   const projectData = [
     {
-      name: 'Dayt',
-      description: 'Dayt is a travel planning web app designed to make planning your next trip simple and easy while providing authentic experiences recommended by locals. Featuring geocoding, image upload, authentication and front end npm packages for a smooth user experience.',
-      technologies: ['Ruby On Rails', 'Postgresql', 'JavaScript', 'SCSS'],
-      github: 'https://github.com/hwalk1/dayt_app',
-      website: 'https://www.dayt.travel',
-      img: DaytImg
-    },
-    {
       name: 'GigFox',
       description: 'A web app for posting and booking venues around Melbourne. Post your own venue and see it appear on the map. Featuring geocoding, image upload, authentication and authorisation.',
       technologies: ['Ruby On Rails', 'Postgresql', 'JavaScript', 'SCSS'],
       github: 'https://github.com/hwalk1/gigfox',
       website: 'https://gig-fox.herokuapp.com/',
       img: GigFoxImg
+    },
+    {
+      name: 'Dayt',
+      description: 'Dayt is a travel planning web app designed to make planning your next trip simple and easy while providing authentic experiences recommended by locals. Featuring geocoding, image upload, authentication and front end npm packages for a smooth user experience.',
+      technologies: ['Ruby On Rails', 'Postgresql', 'JavaScript', 'SCSS'],
+      github: 'https://github.com/hwalk1/dayt_app',
+      website: 'https://www.dayt.travel',
+      img: DaytImg
     },
     {
       name: 'Tic Tac Toe',
