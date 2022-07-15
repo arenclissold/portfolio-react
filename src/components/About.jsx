@@ -2,7 +2,7 @@ import SkillSphere from "./SkillSphere";
 
 export default function About() {
   return (
-    <section id="about" className='scroll-m-24'>
+    <section id="about">
       <div className="flex items-center">
         <h2 className='font-semibold text-4xl'>About</h2>
         <div className="line"></div>

@@ -68,7 +68,7 @@ export default function Projects() {
   const projects = projectData.map((data, i) => <Project key={i} data={data} index={i} />)
 
   return (
-    <section id='projects' className='scroll-m-24 mt-20'>
+    <section id='projects' className='mt-20'>
       <div className="flex items-center">
         <h2 className='font-semibold text-4xl'>Featured Projects</h2>
         <div className="line"></div>

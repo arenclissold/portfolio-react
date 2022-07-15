@@ -82,7 +82,7 @@ const Email = () => {
 
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-m-24 mt-20 relative z-[1] min-h-[90vh]"  >
+    <section id="contact" className="mt-20 relative z-[1] min-h-[90vh]"  >
       <div className='absolute md:left-[-17%] left-[-10%] aspect[1/2] w-[120vw] h-full bg-no-repeat bg-cover bg-center z-[-1]'
       style={{backgroundImage: `url(${Waves})`}}></div>
       <div className="flex items-center justify-center mb-6">
