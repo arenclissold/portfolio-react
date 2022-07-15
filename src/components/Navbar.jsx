@@ -1,9 +1,5 @@
-import React from 'react'
-import { useEffect } from 'react';
-import { useState } from 'react'
-
+import { useEffect, useState } from 'react';
 import { Link } from "react-scroll";
-
 import { FaBars } from 'react-icons/fa'
 
 export default function Navbar() {

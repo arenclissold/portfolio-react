@@ -1,4 +1,3 @@
-import React from "react";
 import GitHubIcon from "./icons/GitHubIcon";
 import ProjectLinkIcon from "./icons/ProjectLinkIcon";
 import DaytImg from "./assets/dayt_image.jpeg"
