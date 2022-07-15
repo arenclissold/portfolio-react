@@ -163,7 +163,7 @@ const defaultState: tagSphereProps = {
     <img
       src="https://cdn.svgporn.com/logos/rails.svg"
       alt="Ruby on Rails"
-      width={80}
+      width={70}
     />,
     <img
       src="https://cdn.svgporn.com/logos/bootstrap.svg"
@@ -196,7 +196,7 @@ const defaultState: tagSphereProps = {
       width={60}
     />,
     <img src="https://cdn.svgporn.com/logos/postgresql.svg" alt="Postgresql" width={60} />,
-    <img id='express' src="https://cdn.svgporn.com/logos/express.svg" alt="Express" width={80} />,
+    <img src="https://cdn.svgporn.com/logos/typescript-icon.svg" alt="Typescript" width={50} />,
     <img
       src="https://cdn.svgporn.com/logos/javascript.svg"
       alt="Javascript"
