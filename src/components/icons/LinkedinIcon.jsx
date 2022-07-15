@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function LinkedinIcon() {
+export default function LinkedinIcon(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ export default function LinkedinIcon() {
       role="img"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke={props.color}
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -19,4 +19,8 @@ export default function LinkedinIcon() {
       <circle cx="4" cy="4" r="2"></circle>
     </svg>
   );
+}
+
+LinkedinIcon.defaultProps ={
+  color: 'currentColor'
 }
