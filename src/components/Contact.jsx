@@ -12,7 +12,7 @@ const Email = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     e.disabled = true
-    
+
     const emailField = form.current.querySelector('input[name = user_email]')
     const messageField = form.current.querySelector('textarea')
     if (emailField.value && messageField.value) {
@@ -71,18 +71,19 @@ const Email = () => {
       className='my-4 p-2 shadow-lg rounded text-black focus:outline-[#7209b7] focus:outline-[3px] focus:outline' />
       <textarea name="message" placeholder='What did you have in mind?'
       className='h-32 my-4 p-2 shadow-lg rounded resize-none text-black focus:outline-[#7209b7] focus:outline-[3px] focus:outline' />
-      <input type="submit" value="Send"
-      className="bg-[#7209b7] text-white mx-auto inline-block rounded my-2 px-9 py-2 text-lg
-      duration-500 transition-all
-      hover:text-[#7209b7] hover:shadow-[inset_6.5em_0_0_0_white] focus:hover:shadow-[inset_6.5em_0_0_0_white]" />
+      <div className="shadow-lg w-min m-2 rounded mx-auto">
+        <input type="submit" value="Send"
+        className="bg-[#7209b7] text-white rounded px-9 py-2 text-lg duration-500 transition-all
+        hover:text-[#7209b7] hover:shadow-[inset_6.5em_0_0_0_white] focus:hover:shadow-[inset_6.5em_0_0_0_white]" />
+      </div>
     </form>
   );
 };
 
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-m-24 mt-20 relative z-[2] min-h-[90vh]"  >
-      <div className='absolute md:left-[-17%] left-[-5%] aspect[1/2] w-[120vw] h-[90vh] bg-no-repeat bg-cover bg-center z-[-1]'
+    <section id="contact" className="scroll-m-24 mt-20 relative z-[1] min-h-[90vh]"  >
+      <div className='absolute md:left-[-17%] left-[-10%] aspect[1/2] w-[120vw] h-full bg-no-repeat bg-cover bg-center z-[-1]'
       style={{backgroundImage: `url(${Waves})`}}></div>
       <div className="flex items-center justify-center mb-6">
         <div className="h-0.5 w-1/5 bg-[#2f3957] mx-4 rounded-3xl"></div>
