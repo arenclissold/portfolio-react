@@ -52,8 +52,9 @@ export default function Navbar() {
       transition-transform duration-700 sm:top-auto sm:static sm:w-auto sm:flex-row
       ${show && 'translate-y-56'}`
       }>
-        {linkData.map(data =>
+        {linkData.map((data, i) =>
           <Link
+            key={i}
             className="mx-2 transition-all hover:text-primary border-b-[1px] border-primary border-opacity-0"
             activeClass="text-primary border-b-[1px] border-primary border-opacity-100"
             to={data.link}
