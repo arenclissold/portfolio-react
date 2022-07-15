@@ -2,7 +2,7 @@ import Aren from "./assets/aren.jpg";
 
 export default function Header() {
   return (
-    <section className="flex flex-col md:flex-row justify-around items-center min-h-screen">
+    <section id="header" className="flex flex-col md:flex-row justify-around items-center min-h-screen">
       <div>
         <h3 className=" text-primary font-mono text-lg pt-20 md:pt-0">Hi, my name is</h3>
         <h1 className="text-5xl md:text-6xl my-2">Aren</h1>

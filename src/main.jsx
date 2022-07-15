@@ -21,7 +21,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Header />
           <About />
           <Projects />
-          <MoreProjects />
           <Contact />
         </div>
         <Right />

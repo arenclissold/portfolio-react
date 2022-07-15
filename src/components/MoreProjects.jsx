@@ -74,8 +74,8 @@ export default function MoreProjects() {
   }
 
   return (
-    <section id='more-projects' className='scroll-m-24 mt-20 min-h-[30em]'>
-      <div className="flex items-center">
+    <div id='projects' className='mt-20 min-h-[30em]'>
+      <div className="flex items-center mb-14">
         <h2 className='font-semibold text-4xl'>More Projects</h2>
         <div className="line"></div>
       </div>
@@ -83,6 +83,6 @@ export default function MoreProjects() {
         {projects}
         <GithubSquare />
       </div>
-    </section>
+    </div>
   )
 }

@@ -4,6 +4,7 @@ import ProjectLinkIcon from "./icons/ProjectLinkIcon";
 import DaytImg from "./assets/dayt_image.jpeg"
 import GigFoxImg from "./assets/gig-fox.png"
 import ticTacToe from './assets/tic-tac-toe.png'
+import MoreProjects from "./MoreProjects";
 
 
 export default function Projects() {
@@ -76,6 +77,7 @@ export default function Projects() {
       <div className="flex flex-col">
         {projects}
       </div>
+      <MoreProjects />
     </section>
   )
 }
