@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import confetti from 'canvas-confetti';
 import Waves from './assets/contact-waves.svg'
 import GitHubIcon from "./icons/GitHubIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
@@ -10,17 +11,59 @@ const Email = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    e.disabled = true
+    
     const emailField = form.current.querySelector('input[name = user_email]')
     const messageField = form.current.querySelector('textarea')
     if (emailField.value && messageField.value) {
       emailjs.sendForm('service_j5qvy7b', 'template_4ex5o3d', form.current, 'LZiH3VzIaIxXMV0yW')
         .then((result) => {
             console.log(result.text);
+            emailField.value = ''
+            messageField.value = ''
+            e.disabled = false
+            emailConfetti()
         }, (error) => {
             console.log(error.text);
         });
     }
   };
+
+  const emailConfetti = () => {
+    const count = 200;
+    const defaults = {
+      origin: { y: 0.7 }
+    };
+
+    function fire(particleRatio, opts) {
+      confetti(Object.assign({}, defaults, opts, {
+        particleCount: Math.floor(count * particleRatio)
+      }));
+    }
+
+    fire(0.25, {
+      spread: 26,
+      startVelocity: 55,
+    });
+    fire(0.2, {
+      spread: 60,
+    });
+    fire(0.35, {
+      spread: 100,
+      decay: 0.91,
+      scalar: 0.8
+    });
+    fire(0.1, {
+      spread: 120,
+      startVelocity: 25,
+      decay: 0.92,
+      scalar: 1.2
+    });
+    fire(0.1, {
+      spread: 120,
+      startVelocity: 45,
+    });
+  }
 
   return (
     <form ref={form} onSubmit={sendEmail} className="flex flex-col justify-center mx-auto my-5 max-w-96 max-w-lg">
