@@ -25,6 +25,10 @@ export default function Navbar() {
       link: "about"
     },
     {
+      name: "Experience",
+      link: "experience"
+    },
+    {
       name: "Projects",
       link: "projects"
     },
@@ -40,7 +44,7 @@ export default function Navbar() {
     ${show && 'pb-36'}`
     }>
       <Link
-        className="font-yellowtail text-5xl text-primary m-2"
+        className="font-yellowtail text-5xl text-primary m-2 cursor-pointer"
         activeClass="text-primary"
         to="header"
         spy={true}
@@ -55,7 +59,7 @@ export default function Navbar() {
         {linkData.map((data, i) =>
           <Link
             key={i}
-            className="mx-2 transition-all hover:text-primary border-b-[1px] border-primary border-opacity-0"
+            className="mx-2 transition-all hover:text-primary border-b-[1px] border-primary border-opacity-0 cursor-pointer"
             activeClass="text-primary border-b-[1px] border-primary border-opacity-100"
             to={data.link}
             spy={true}
