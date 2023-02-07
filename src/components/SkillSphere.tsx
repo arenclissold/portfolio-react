@@ -148,7 +148,7 @@ const defaultState: tagSphereProps = {
       alt="Figma"
       width={40}
     />,
-    <img src="https://cdn.svgporn.com/logos/ruby.svg" alt="Ruby" width={50} />,
+    <img src="https://cdn.svgporn.com/logos/ruby.svg" alt="Ruby" width={40} />,
     <img
       src="https://cdn.svgporn.com/logos/html-5.svg"
       alt="HTML"
@@ -171,14 +171,14 @@ const defaultState: tagSphereProps = {
       width={40}
     />,
     <img
-      src="https://cdn.svgporn.com/logos/heroku-icon.svg"
-      alt="Heroku"
-      width={40}
+      src="https://cdn.svgporn.com/logos/aws.svg"
+      alt="AWS"
+      width={60}
     />,
     <img
-      src="https://cdn.svgporn.com/logos/mongodb.svg"
+      src="https://cdn.svgporn.com/logos/graphql.svg"
       alt="MongoDB"
-      width={100}
+      width={50}
     />,
     <img
       src="https://cdn.svgporn.com/logos/git-icon.svg"
@@ -186,8 +186,8 @@ const defaultState: tagSphereProps = {
       width={40}
     />,
     <img
-      src="https://cdn.svgporn.com/logos/python.svg"
-      alt="Python"
+      src="https://camo.githubusercontent.com/a26a334927b7b38964154b969dc4d08539ab27ee16e14accb32894e0a4a4790d/68747470733a2f2f7777772e64616767616c612e636f6d2f7374617469632f32323838363763333636386534333931303138323135363861386130336235342f31396361352f73632e706e67"
+      alt="StyledComponents"
       width={40}
     />,
     <img
