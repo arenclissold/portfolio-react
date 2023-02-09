@@ -150,9 +150,9 @@ const defaultState: tagSphereProps = {
     />,
     <img src="https://cdn.svgporn.com/logos/ruby.svg" alt="Ruby" width={40} />,
     <img
-      src="https://cdn.svgporn.com/logos/html-5.svg"
-      alt="HTML"
-      width={40}
+      src="/nextjs.png"
+      alt="Next.js"
+      width={70}
     />,
     <img src="https://cdn.svgporn.com/logos/sass.svg" alt="SASS" width={50} />,
     <img
@@ -186,9 +186,9 @@ const defaultState: tagSphereProps = {
       width={40}
     />,
     <img
-      src="https://camo.githubusercontent.com/a26a334927b7b38964154b969dc4d08539ab27ee16e14accb32894e0a4a4790d/68747470733a2f2f7777772e64616767616c612e636f6d2f7374617469632f32323838363763333636386534333931303138323135363861386130336235342f31396361352f73632e706e67"
+      src="/styled-components.png"
       alt="StyledComponents"
-      width={40}
+      width={100}
     />,
     <img
       src="https://cdn.svgporn.com/logos/tailwindcss-icon.svg"
