@@ -120,8 +120,6 @@ If you ever want to reach out, I'm always keen for a chat ☕️
 
 [Linkedin]([linkedin-url])
 
-arenclissold@gmail.com
-
 Project Link: [https://github.com/arenclissold/portfolio-react](https://github.com/arenclissold/portfolio-react)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

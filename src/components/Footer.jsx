@@ -6,7 +6,7 @@ import LinkedinIcon from "./icons/LinkedinIcon";
 export default function Footer() {
   return (
     <section id="contact" className="mt-20 relative z-[1] min-h-[90vh]"  >
-      <div className='absolute md:left-[-17%] left-[-10%] aspect[1/2] w-[120vw] h-full bg-no-repeat bg-cover bg-center z-[-1]'
+      <div className='absolute left-[-50vw] aspect[1/2] w-[150vw] h-full bg-cover bg-center z-[-1]'
         style={{ backgroundImage: `url(${Waves})` }}></div>
       <div className="flex items-center justify-center mb-6">
         <div className="h-0.5 w-1/5 bg-[#2f3957] mx-4 rounded-3xl"></div>
