@@ -1,11 +1,10 @@
-import React from 'react';
 import Waves from './assets/contact-waves.svg'
 import GitHubIcon from "./icons/GitHubIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
 
 export default function Footer() {
   return (
-    <section id="contact" className="mt-20 relative z-[1] min-h-[90vh]"  >
+    <section id="contact" className="mt-20 relative z-1 min-h-[90vh]"  >
       <div className='absolute left-[-50vw] aspect[1/2] w-[150vw] h-full bg-cover bg-center z-[-1]'
         style={{ backgroundImage: `url(${Waves})` }}></div>
       <div className="flex items-center justify-center mb-6">

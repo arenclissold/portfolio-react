@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Yellowtail&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4cd7f0;
+  --color-secondary: #aeb9df;
+
+  --font-family-roboto: Roboto, sans-serif;
+  --font-family-yellowtail: Yellowtail, cursive;
+  --font-family-mono: Roboto Mono, monospace;
+}
 
 @layer components {
   .line {
