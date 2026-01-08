@@ -50,6 +50,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
@@ -60,17 +61,16 @@ Visit the site at: https://arenclissold.com
 
 ### Built With
 
-* [![React][React.js]][React-url]
-* [![Typescript][Typescript]][Typescript-url]
-* [![Javascript][Javascript]][Javascript-url]
-* [![Vite][Vite]][Vite-url]
-* [![Tailwind][Tailwind]][Tailwind-url]
+- [![React][React.js]][React-url]
+- [![Typescript][Typescript]][Typescript-url]
+- [![Javascript][Javascript]][Javascript-url]
+- [![Vite][Vite]][Vite-url]
+- [![Tailwind][Tailwind]][Tailwind-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy up and running follow these steps.
@@ -78,7 +78,8 @@ To get a local copy up and running follow these steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -101,7 +102,9 @@ This is an example of how to list things you need to use the software and how to
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
+
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
@@ -114,6 +117,7 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
 ## Contact
 
 If you ever want to reach out, I'm always keen for a chat ☕️
@@ -125,33 +129,34 @@ Project Link: [https://github.com/arenclissold/portfolio-react](https://github.c
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [React Icons](https://react-icons.github.io/react-icons/search)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Netlify](https://www.netlify.com/)
-* [Design Inspiration](https://brittanychiang.com/)
-* [Tag Sphere](https://github.com/jjsanmartino03/react-tag-sphere)
-* [Canvas Confetti](https://github.com/catdad/canvas-confetti)
-* [React Scroll](https://www.npmjs.com/package/react-scroll)
-* [EmailJS](https://www.emailjs.com/)
-* [Haikei](https://haikei.app/)
-* [Hover Effects](https://alvarotrigo.com/blog/best-css-button-hover-effects/)
-* [Meta Tags](https://metatags.io/)
+- [React Icons](https://react-icons.github.io/react-icons/search)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [Design Inspiration](https://brittanychiang.com/)
+- [Tag Sphere](https://github.com/jjsanmartino03/react-tag-sphere)
+- [Canvas Confetti](https://github.com/catdad/canvas-confetti)
+- [React Scroll](https://www.npmjs.com/package/react-scroll)
+- [EmailJS](https://www.emailjs.com/)
+- [Haikei](https://haikei.app/)
+- [Hover Effects](https://alvarotrigo.com/blog/best-css-button-hover-effects/)
+- [Meta Tags](https://metatags.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [linkedin-url]: https://linkedin.com/in/arenclissold
 [product-screenshot]: public/meta-tag.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Tailwind]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
-[Typescript]: 	https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [Typescript-url]: https://www.typescriptlang.org/
-[Javascript]: 	https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[Javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 [Javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-[Vite]: 	https://img.shields.io/badge/Vite-A355fd?style=for-the-badge&logo=vite&logoColor=white
+[Vite]: https://img.shields.io/badge/Vite-A355fd?style=for-the-badge&logo=vite&logoColor=white
 [Vite-url]: https://vitejs.dev/
