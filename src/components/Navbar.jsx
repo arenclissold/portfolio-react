@@ -29,10 +29,6 @@ export default function Navbar() {
 			link: "experience",
 		},
 		{
-			name: "Projects",
-			link: "projects",
-		},
-		{
 			name: "Contact",
 			link: "contact",
 		},

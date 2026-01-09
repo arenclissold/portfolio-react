@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -14,7 +13,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 			<Header />
 			<About />
 			<Experience />
-			<Projects />
 			<Footer />
 		</div>
 	</div>,
